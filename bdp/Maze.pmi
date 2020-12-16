@@ -1,0 +1,26 @@
+THEORY BalanceX IS
+Maze,4,0,0,0,0,0,0;
+Initialisation,2,0,0,0,0,0,0;
+update,2,0,0,0,0,0,0
+END
+&
+THEORY ProofState IS
+Unproved;
+Unproved;
+Unproved;
+Unproved
+END
+&
+THEORY MethodList IS
+?;
+?;
+?;
+?
+END
+&
+THEORY PassList IS
+Force(0),?;
+Force(0),?;
+Force(0),?;
+Force(0),?
+END

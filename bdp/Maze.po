@@ -1,0 +1,47 @@
+THEORY ProofList IS
+_f(1) & _f(2) & _f(8) & _f(15) & update.2,(_f(3) & _f(17) => _f(18));
+_f(1) & _f(2) & _f(8) & _f(15) & update.1,(_f(3) & _f(6) => _f(16));
+_f(1) & _f(2) & Initialisation.2,(_f(3) & _f(6) => _f(7));
+_f(1) & _f(2) & Initialisation.1,(_f(3) & _f(4) => _f(5))
+END
+&
+THEORY Formulas IS
+((NAT) = (((0) .. (2147483647)))) & ((INT) = (((-2147483647) .. (2147483647))));
+((1..2)*{OUTPUT_MESSAGE}): FIN(NATURAL*{OUTPUT_MESSAGE}) & not(((1..2)*{OUTPUT_MESSAGE}) = {}) & X_Coordinate : POW( (NATURAL-{0})) & ((X_Coordinate) = (((1) .. (7)))) & Y_Coordinate : POW( (NATURAL-{0})) & ((Y_Coordinate) = (((1) .. (5)))) & ((Entrance_Square) : ((((NATURAL-{0})) <-> ((NATURAL-{0}))))) & ((Entrance_Square) = (({((1) |-> (1))}))) & ((Exit_Square) : ((((NATURAL-{0})) <-> ((NATURAL-{0}))))) & ((Exit_Square) = (({((1) |-> (5))}))) & ((Walls) : ((((NATURAL-{0})) <-> ((NATURAL-{0}))))) & ((Walls) = (({((1) |-> (3))}\/{((2) |-> (1))}\/{((2) |-> (3))}\/{((2) |-> (5))}\/{((3) |-> (3))}\/{((4) |-> (2))}\/{((4) |-> (3))}\/{((4) |-> (4))}\/{((6) |-> (1))}\/{((6) |-> (2))}\/{((6) |-> (4))}\/{((7) |-> (4))})));
+"Invariant is preserved";
+"Check invariant ((visited_route) : (seq(((NATURAL-{0}) * (NATURAL-{0})))))";
+(({}) : (seq(((NATURAL-{0}) * (NATURAL-{0})))));
+"Check invariant ((visited_x_coordinate) : ((NATURAL-{0})))";
+((1) : ((NATURAL-{0})));
+visited_route : NATURAL-{0} +-> ((NATURAL-{0}) * (NATURAL-{0})) & ((visited_route) : (seq(((NATURAL-{0}) * (NATURAL-{0}))))) & ((visited_x_coordinate) : ((NATURAL-{0}))) & ((visited_y_coordinate) : ((NATURAL-{0})));
+btrue;
+((xPoint) : (X_Coordinate)) & ((yPoint) : (Y_Coordinate));
+((((xPoint) |-> (yPoint))) : (ran(visited_route)));
+not(((((xPoint) |-> (yPoint))) : (ran(visited_route))));
+((((visited_x_coordinate) |-> (visited_y_coordinate))) : (Exit_Square));
+not(((((visited_x_coordinate) |-> (visited_y_coordinate))) : (Exit_Square)));
+((x_point) : (X_Coordinate)) & ((y_point) : (Y_Coordinate)) & route : NATURAL-{0} +-> ((NATURAL-{0}) * (NATURAL-{0})) & ((route) : (seq(((NATURAL-{0}) * (NATURAL-{0})))));
+((x_point) : ((NATURAL-{0})));
+"Check invariant ((visited_y_coordinate) : ((NATURAL-{0})))";
+((y_point) : ((NATURAL-{0})));
+((1..2)*{OUTPUT_MESSAGE}): FIN(NATURAL*{OUTPUT_MESSAGE}) & not(((1..2)*{OUTPUT_MESSAGE}) = {});
+((Walls) : ((((NATURAL-{0})) <-> ((NATURAL-{0})))));
+((Exit_Square) = (({((1) |-> (5))})));
+((Exit_Square) : ((((NATURAL-{0})) <-> ((NATURAL-{0})))));
+((Entrance_Square) = (({((1) |-> (1))})));
+((Entrance_Square) : ((((NATURAL-{0})) <-> ((NATURAL-{0})))));
+((Y_Coordinate) = (((1) .. (5))));
+Y_Coordinate : POW( (NATURAL-{0}));
+((X_Coordinate) = (((1) .. (7))));
+X_Coordinate : POW( (NATURAL-{0}));
+((visited_x_coordinate) : ((NATURAL-{0})));
+visited_route : NATURAL-{0} +-> ((NATURAL-{0}) * (NATURAL-{0}));
+((visited_route) : (seq(((NATURAL-{0}) * (NATURAL-{0})))));
+((xPoint) : (X_Coordinate));
+((y_point) : (Y_Coordinate));
+((x_point) : (X_Coordinate))
+END
+&
+THEORY EnumerateX IS
+OUTPUT_MESSAGE == {Yes,No}
+END

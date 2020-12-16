@@ -1,0 +1,115 @@
+THEORY ProofList IS
+_f(1) & _f(2) & _f(3) & _f(4) & _f(11) & _f(48) & WellDefinedness_teleport.1,(_f(54) & _f(50) & _f(63) => _f(64));
+_f(1) & _f(2) & _f(3) & _f(4) & _f(11) & _f(12) & WellDefinedness_moveWest.2,(_f(42) & _f(43) & _f(63) => _f(65));
+_f(1) & _f(2) & _f(3) & _f(4) & _f(11) & _f(12) & WellDefinedness_moveWest.1,(_f(42) & _f(43) & _f(63) => _f(64));
+_f(1) & _f(2) & _f(3) & _f(4) & _f(11) & _f(12) & WellDefinedness_moveSouth.2,(_f(35) & _f(36) & _f(63) => _f(65));
+_f(1) & _f(2) & _f(3) & _f(4) & _f(11) & _f(12) & WellDefinedness_moveSouth.1,(_f(35) & _f(36) & _f(63) => _f(64));
+_f(1) & _f(2) & _f(3) & _f(4) & _f(11) & _f(12) & WellDefinedness_moveEast.2,(_f(26) & _f(27) & _f(63) => _f(65));
+_f(1) & _f(2) & _f(3) & _f(4) & _f(11) & _f(12) & WellDefinedness_moveEast.1,(_f(26) & _f(27) & _f(63) => _f(64));
+_f(1) & _f(2) & _f(3) & _f(4) & _f(11) & _f(12) & WellDefinedness_moveNorth.2,(_f(13) & _f(14) & _f(63) => _f(65));
+_f(1) & _f(2) & _f(3) & _f(4) & _f(11) & _f(12) & WellDefinedness_moveNorth.1,(_f(13) & _f(14) & _f(63) => _f(64));
+_f(1) & _f(2) & _f(3) & _f(4) & _f(11) & _f(48) & teleport.4,(_f(54) & _f(50) & _f(8) & _f(23) => _f(24));
+_f(1) & _f(2) & _f(3) & _f(4) & _f(11) & _f(48) & teleport.3,(_f(54) & _f(50) & _f(8) & _f(21) => _f(56));
+_f(1) & _f(2) & _f(3) & _f(4) & _f(11) & _f(48) & teleport.2,(_f(54) & _f(50) & _f(8) & _f(32) => _f(55));
+_f(1) & _f(2) & _f(3) & _f(4) & _f(11) & _f(48) & teleport.1,(_f(54) & _f(50) & _f(18) => _f(20));
+_f(1) & _f(2) & _f(3) & _f(4) & _f(11) & _f(12) & moveWest.5,(_f(42) & _f(43) & _f(8) & _f(9) => _f(34));
+_f(1) & _f(2) & _f(3) & _f(4) & _f(11) & _f(12) & moveWest.4,(_f(42) & _f(43) & _f(8) & _f(23) => _f(24));
+_f(1) & _f(2) & _f(3) & _f(4) & _f(11) & _f(12) & moveWest.3,(_f(42) & _f(43) & _f(8) & _f(32) => _f(47));
+_f(1) & _f(2) & _f(3) & _f(4) & _f(11) & _f(12) & moveWest.2,(_f(42) & _f(43) & _f(18) => _f(20));
+_f(1) & _f(2) & _f(3) & _f(4) & _f(11) & _f(12) & moveWest.1,(_f(42) & _f(43) & _f(18) => _f(31));
+_f(1) & _f(2) & _f(3) & _f(4) & _f(11) & _f(12) & moveSouth.5,(_f(35) & _f(36) & _f(8) & _f(9) => _f(41));
+_f(1) & _f(2) & _f(3) & _f(4) & _f(11) & _f(12) & moveSouth.4,(_f(35) & _f(36) & _f(8) & _f(23) => _f(24));
+_f(1) & _f(2) & _f(3) & _f(4) & _f(11) & _f(12) & moveSouth.3,(_f(35) & _f(36) & _f(8) & _f(21) => _f(40));
+_f(1) & _f(2) & _f(3) & _f(4) & _f(11) & _f(12) & moveSouth.2,(_f(35) & _f(36) & _f(18) => _f(20));
+_f(1) & _f(2) & _f(3) & _f(4) & _f(11) & _f(12) & moveSouth.1,(_f(35) & _f(36) & _f(18) => _f(19));
+_f(1) & _f(2) & _f(3) & _f(4) & _f(11) & _f(12) & moveEast.5,(_f(26) & _f(27) & _f(8) & _f(9) => _f(34));
+_f(1) & _f(2) & _f(3) & _f(4) & _f(11) & _f(12) & moveEast.4,(_f(26) & _f(27) & _f(8) & _f(23) => _f(24));
+_f(1) & _f(2) & _f(3) & _f(4) & _f(11) & _f(12) & moveEast.3,(_f(26) & _f(27) & _f(8) & _f(32) => _f(33));
+_f(1) & _f(2) & _f(3) & _f(4) & _f(11) & _f(12) & moveEast.2,(_f(26) & _f(27) & _f(18) => _f(20));
+_f(1) & _f(2) & _f(3) & _f(4) & _f(11) & _f(12) & moveEast.1,(_f(26) & _f(27) & _f(18) => _f(31));
+_f(1) & _f(2) & _f(3) & _f(4) & _f(11) & _f(12) & moveNorth.5,(_f(13) & _f(14) & _f(8) & _f(9) => _f(25));
+_f(1) & _f(2) & _f(3) & _f(4) & _f(11) & _f(12) & moveNorth.4,(_f(13) & _f(14) & _f(8) & _f(23) => _f(24));
+_f(1) & _f(2) & _f(3) & _f(4) & _f(11) & _f(12) & moveNorth.3,(_f(13) & _f(14) & _f(8) & _f(21) => _f(22));
+_f(1) & _f(2) & _f(3) & _f(4) & _f(11) & _f(12) & moveNorth.2,(_f(13) & _f(14) & _f(18) => _f(20));
+_f(1) & _f(2) & _f(3) & _f(4) & _f(11) & _f(12) & moveNorth.1,(_f(13) & _f(14) & _f(18) => _f(19));
+_f(1) & _f(2) & _f(3) & _f(4) & Initialisation.1,(_f(5) & _f(6) & _f(7) & _f(7) & _f(8) & _f(9) => _f(10))
+END
+&
+THEORY Formulas IS
+((NAT) = (((0) .. (2147483647)))) & ((INT) = (((-2147483647) .. (2147483647))));
+((1..4)*{DIRECTIONS}): FIN(NATURAL*{DIRECTIONS}) & not(((1..4)*{DIRECTIONS}) = {}) & ((1..10)*{STATE_MESSAGES}): FIN(NATURAL*{STATE_MESSAGES}) & not(((1..10)*{STATE_MESSAGES}) = {});
+((1..2)*{OUTPUT_MESSAGE}): FIN(NATURAL*{OUTPUT_MESSAGE}) & not(((1..2)*{OUTPUT_MESSAGE}) = {}) & X_Coordinate : POW( (NAT-{0})) & ((X_Coordinate) = (((1) .. (7)))) & Y_Coordinate : POW( (NAT-{0})) & ((Y_Coordinate) = (((1) .. (5)))) & ((Entrance_Square) : ((((NAT-{0})) <-> ((NAT-{0}))))) & ((Entrance_Square) = (({((1) |-> (1))}))) & ((Exit_Square) : ((((NAT-{0})) <-> ((NAT-{0}))))) & ((Exit_Square) = (({((1) |-> (5))}))) & ((Walls) : ((((NAT-{0})) <-> ((NAT-{0}))))) & ((Walls) = (({((1) |-> (3))}\/{((2) |-> (1))}\/{((2) |-> (3))}\/{((2) |-> (5))}\/{((3) |-> (3))}\/{((4) |-> (2))}\/{((4) |-> (3))}\/{((4) |-> (4))}\/{((6) |-> (1))}\/{((6) |-> (2))}\/{((6) |-> (4))}\/{((7) |-> (4))})));
+visited_route : NATURAL-{0} +-> ((NAT-{0}) * (NAT-{0})) & ((visited_route) : (seq(((NAT-{0}) * (NAT-{0}))))) & ((visited_x_coordinate) : ((NAT-{0}))) & ((visited_y_coordinate) : ((NAT-{0})));
+{} : NATURAL-{0} +-> ((NAT-{0}) * (NAT-{0}));
+(({}) : (seq(((NAT-{0}) * (NAT-{0})))));
+((1) : ((NAT-{0})));
+"Invariant is preserved";
+"Check invariant ((visited_derection) : (seq(DIRECTIONS)))";
+(({}) : (seq(((1..4)*{DIRECTIONS}))));
+((robot_x_coordinate) : ((NAT-{0}))) & ((robot_y_coordinate) : ((NAT-{0}))) & robot_path : NATURAL-{0} +-> ((NAT-{0}) * (NAT-{0})) & ((robot_path) : (seq(((NAT-{0}) * (NAT-{0}))))) & visited_derection : NATURAL-{0} +-> ((1..4)*{DIRECTIONS}) & ((visited_derection) : (seq(((1..4)*{DIRECTIONS}))));
+btrue;
+not(((robot_x_coordinate) |-> ((robot_y_coordinate + 1))) : Walls);
+(((robot_y_coordinate + 1)) : (Y_Coordinate));
+not((robot_y_coordinate + 1) : Y_Coordinate);
+not(not((robot_y_coordinate + 1) : Y_Coordinate));
+not(not(((robot_x_coordinate) |-> ((robot_y_coordinate + 1))) : Walls) & (((robot_y_coordinate + 1)) : (Y_Coordinate)));
+"Precondition predicate";
+((robot_x_coordinate) : (X_Coordinate));
+((((robot_path) <- (((robot_x_coordinate) |-> (robot_y_coordinate))))) : (seq((INTEGER * INTEGER))));
+"Check invariant ((robot_y_coordinate) : ((NAT-{0})))";
+(((robot_y_coordinate + 1)) : ((NAT-{0})));
+"Check invariant ((robot_path) : (seq(((NAT-{0}) * (NAT-{0})))))";
+((((robot_path) <- (((robot_x_coordinate) |-> (robot_y_coordinate))))) : (seq(((NAT-{0}) * (NAT-{0})))));
+((((visited_derection) <- ((1|->DIRECTIONS)))) : (seq(((1..4)*{DIRECTIONS}))));
+not((((robot_x_coordinate + 1)) |-> (robot_y_coordinate)) : Walls);
+(((robot_x_coordinate + 1)) : (X_Coordinate));
+not((robot_x_coordinate + 1) : X_Coordinate);
+not(not((robot_x_coordinate + 1) : X_Coordinate));
+not(not((((robot_x_coordinate + 1)) |-> (robot_y_coordinate)) : Walls) & (((robot_x_coordinate + 1)) : (X_Coordinate)));
+((robot_y_coordinate) : (Y_Coordinate));
+"Check invariant ((robot_x_coordinate) : ((NAT-{0})))";
+(((robot_x_coordinate + 1)) : ((NAT-{0})));
+((((visited_derection) <- ((3|->DIRECTIONS)))) : (seq(((1..4)*{DIRECTIONS}))));
+not(((robot_x_coordinate) |-> ((robot_y_coordinate - 1))) : Walls);
+(((robot_y_coordinate - 1)) : (Y_Coordinate));
+not((robot_y_coordinate - 1) : Y_Coordinate);
+not(not((robot_y_coordinate - 1) : Y_Coordinate));
+not(not(((robot_x_coordinate) |-> ((robot_y_coordinate - 1))) : Walls) & (((robot_y_coordinate - 1)) : (Y_Coordinate)));
+(((robot_y_coordinate - 1)) : ((NAT-{0})));
+((((visited_derection) <- ((2|->DIRECTIONS)))) : (seq(((1..4)*{DIRECTIONS}))));
+not((((robot_x_coordinate - 1)) |-> (robot_y_coordinate)) : Walls);
+(((robot_x_coordinate - 1)) : (X_Coordinate));
+not((robot_x_coordinate - 1) : X_Coordinate);
+not(not((robot_x_coordinate - 1) : X_Coordinate));
+not(not((((robot_x_coordinate - 1)) |-> (robot_y_coordinate)) : Walls) & (((robot_x_coordinate - 1)) : (X_Coordinate)));
+(((robot_x_coordinate - 1)) : ((NAT-{0})));
+((x_point) : (X_Coordinate)) & ((y_point) : (Y_Coordinate));
+((((x_point) |-> (y_point))) = (((robot_x_coordinate) |-> (robot_y_coordinate))));
+((not(((x_point) |-> (y_point)) : Exit_Square) & not(((x_point) |-> (y_point)) : Walls)) or (not(((robot_x_coordinate) |-> (robot_y_coordinate)) : Entrance_Square)));
+((((x_point) |-> (y_point))) : (Walls));
+not(((((x_point) |-> (y_point))) : (Walls)));
+not(((not(((x_point) |-> (y_point)) : Exit_Square) & not(((x_point) |-> (y_point)) : Walls)) or (not(((robot_x_coordinate) |-> (robot_y_coordinate)) : Entrance_Square))));
+not(((((x_point) |-> (y_point))) = (((robot_x_coordinate) |-> (robot_y_coordinate)))));
+((x_point) : ((NAT-{0})));
+((y_point) : ((NAT-{0})));
+((1..4)*{DIRECTIONS}): FIN(NATURAL*{DIRECTIONS}) & not(((1..4)*{DIRECTIONS}) = {});
+robot_path : NATURAL-{0} +-> ((NAT-{0}) * (NAT-{0}));
+((robot_path) : (seq(((NAT-{0}) * (NAT-{0})))));
+((robot_y_coordinate) : ((NAT-{0})));
+((robot_x_coordinate) : ((NAT-{0})));
+((y_point) : (Y_Coordinate));
+"Well definedness";
+((robot_path) : (seq(ran(robot_path))));
+((visited_derection) : (seq(ran(visited_derection))));
+((robot_y_coordinate) : (X_Coordinate));
+((x_point) : (X_Coordinate));
+not(((x_point) |-> (y_point)) : Exit_Square);
+not(not(((x_point) |-> (y_point)) : Exit_Square) & not(((x_point) |-> (y_point)) : Walls));
+((y_point) : (X_Coordinate))
+END
+&
+THEORY EnumerateX IS
+DIRECTIONS == {North,South,East,West};
+OUTPUT_MESSAGE == {Yes,No};
+STATE_MESSAGES == {Moved_to_North,Moved_to_East,Moved_to_West,Moved_to_South,Cannot_Move_Internal_Wall_Detected,Cannot_Move_External_Wall_Detected,Successfully_Teleported,Cannot_Teleport_to_same_square,Cannot_Directly_Teleport_to_Exit_on_Start,Cannot_Teleport_Internal_Wall_Detected}
+END

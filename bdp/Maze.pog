@@ -1,0 +1,1775 @@
+<Proof_Obligations>
+<Define name="B definitions" merge="=">
+<Nary_Pred op="&amp;">
+<Exp_Comparison op="=">
+<Id value="NAT"/>
+<Binary_Exp op="..">
+<Integer_Literal value="0"/>
+<Id value="MAXINT"/>
+</Binary_Exp>
+</Exp_Comparison>
+<Exp_Comparison op="=">
+<Id value="INT"/>
+<Binary_Exp op="..">
+<Id value="MININT"/>
+<Id value="MAXINT"/>
+</Binary_Exp>
+</Exp_Comparison>
+</Nary_Pred>
+</Define>
+<Define name="ctx" merge="="/>
+<Define name="seext" merge="="/>
+<Define name="lprp" merge="=">
+<Attr>
+<Pos l="8" c="5" s="4"/>
+</Attr>
+<Set>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:1:1:1" value="OUTPUT_MESSAGE" typref="3990292830">
+<Attr>
+<Pos l="9" c="9" s="14"/>
+</Attr>
+</Id>
+<Enumerated_Values>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:1:1:2:1" value="Yes" typref="3689965243">
+<Attr>
+<Pos l="9" c="27" s="3"/>
+</Attr>
+</Id>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:1:1:2:2" value="No" typref="3689965243">
+<Attr>
+<Pos l="9" c="32" s="2"/>
+</Attr>
+</Id>
+</Enumerated_Values>
+</Set>
+<Attr>
+<Pos l="18" c="5" s="10"/>
+</Attr>
+<Nary_Pred op="&amp;">
+<Exp_Comparison op="&lt;:">
+<Attr>
+<Pos l="19" c="22" s="2"/>
+</Attr>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:1:1" value="X_Coordinate" typref="3603043417">
+<Attr>
+<Pos l="19" c="9" s="12"/>
+</Attr>
+</Id>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:1:2" value="NATURAL1" typref="3603043417">
+<Attr>
+<Pos l="19" c="25" s="8"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison op="=">
+<Attr>
+<Pos l="20" c="22" s="1"/>
+</Attr>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:2:1" value="X_Coordinate" typref="3603043417">
+<Attr>
+<Pos l="20" c="9" s="12"/>
+</Attr>
+</Id>
+<Binary_Exp op=".." typref="3603043417">
+<Attr>
+<Pos l="20" c="25" s="2"/>
+</Attr>
+<Integer_Literal tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:2:2:1" value="1" typref="2701647786">
+<Attr>
+<Pos l="20" c="24" s="1"/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:2:2:2" value="7" typref="2701647786">
+<Attr>
+<Pos l="20" c="27" s="1"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+</Exp_Comparison>
+<Exp_Comparison op="&lt;:">
+<Attr>
+<Pos l="21" c="22" s="2"/>
+</Attr>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:3:1" value="Y_Coordinate" typref="3603043417">
+<Attr>
+<Pos l="21" c="9" s="12"/>
+</Attr>
+</Id>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:3:2" value="NATURAL1" typref="3603043417">
+<Attr>
+<Pos l="21" c="25" s="8"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison op="=">
+<Attr>
+<Pos l="22" c="22" s="1"/>
+</Attr>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:4:1" value="Y_Coordinate" typref="3603043417">
+<Attr>
+<Pos l="22" c="9" s="12"/>
+</Attr>
+</Id>
+<Binary_Exp op=".." typref="3603043417">
+<Attr>
+<Pos l="22" c="25" s="2"/>
+</Attr>
+<Integer_Literal tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:4:2:1" value="1" typref="2701647786">
+<Attr>
+<Pos l="22" c="24" s="1"/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:4:2:2" value="5" typref="2701647786">
+<Attr>
+<Pos l="22" c="27" s="1"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+</Exp_Comparison>
+<Exp_Comparison op=":">
+<Attr>
+<Pos l="23" c="24" s="1"/>
+</Attr>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:5:1" value="Entrance_Square" typref="103245008">
+<Attr>
+<Pos l="23" c="9" s="15"/>
+</Attr>
+</Id>
+<Binary_Exp op="&lt;->" typref="3083833907">
+<Attr>
+<Pos l="23" c="35" s="3"/>
+</Attr>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:5:2:1" value="NATURAL1" typref="3603043417">
+<Attr>
+<Pos l="23" c="26" s="8"/>
+</Attr>
+</Id>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:5:2:2" value="NATURAL1" typref="3603043417">
+<Attr>
+<Pos l="23" c="39" s="8"/>
+</Attr>
+</Id>
+</Binary_Exp>
+</Exp_Comparison>
+<Exp_Comparison op="=">
+<Attr>
+<Pos l="24" c="25" s="1"/>
+</Attr>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:6:1" value="Entrance_Square" typref="103245008">
+<Attr>
+<Pos l="24" c="9" s="15"/>
+</Attr>
+</Id>
+<Nary_Exp op="{" typref="103245008">
+<Attr>
+<Pos l="24" c="27" s="1"/>
+</Attr>
+<Binary_Exp op="|->" typref="3672872563">
+<Attr>
+<Pos l="24" c="31" s="3"/>
+</Attr>
+<Integer_Literal tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:6:2:1:1" value="1" typref="2701647786">
+<Attr>
+<Pos l="24" c="29" s="1"/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:6:2:1:2" value="1" typref="2701647786">
+<Attr>
+<Pos l="24" c="35" s="1"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+</Nary_Exp>
+</Exp_Comparison>
+<Exp_Comparison op=":">
+<Attr>
+<Pos l="25" c="20" s="1"/>
+</Attr>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:7:1" value="Exit_Square" typref="103245008">
+<Attr>
+<Pos l="25" c="9" s="11"/>
+</Attr>
+</Id>
+<Binary_Exp op="&lt;->" typref="3083833907">
+<Attr>
+<Pos l="25" c="31" s="3"/>
+</Attr>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:7:2:1" value="NATURAL1" typref="3603043417">
+<Attr>
+<Pos l="25" c="22" s="8"/>
+</Attr>
+</Id>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:7:2:2" value="NATURAL1" typref="3603043417">
+<Attr>
+<Pos l="25" c="35" s="8"/>
+</Attr>
+</Id>
+</Binary_Exp>
+</Exp_Comparison>
+<Exp_Comparison op="=">
+<Attr>
+<Pos l="26" c="21" s="1"/>
+</Attr>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:8:1" value="Exit_Square" typref="103245008">
+<Attr>
+<Pos l="26" c="9" s="11"/>
+</Attr>
+</Id>
+<Nary_Exp op="{" typref="103245008">
+<Attr>
+<Pos l="26" c="24" s="1"/>
+</Attr>
+<Binary_Exp op="|->" typref="3672872563">
+<Attr>
+<Pos l="26" c="28" s="3"/>
+</Attr>
+<Integer_Literal tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:8:2:1:1" value="1" typref="2701647786">
+<Attr>
+<Pos l="26" c="26" s="1"/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:8:2:1:2" value="5" typref="2701647786">
+<Attr>
+<Pos l="26" c="32" s="1"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+</Nary_Exp>
+</Exp_Comparison>
+<Exp_Comparison op=":">
+<Attr>
+<Pos l="27" c="14" s="1"/>
+</Attr>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:9:1" value="Walls" typref="103245008">
+<Attr>
+<Pos l="27" c="9" s="5"/>
+</Attr>
+</Id>
+<Binary_Exp op="&lt;->" typref="3083833907">
+<Attr>
+<Pos l="27" c="25" s="3"/>
+</Attr>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:9:2:1" value="NATURAL1" typref="3603043417">
+<Attr>
+<Pos l="27" c="16" s="8"/>
+</Attr>
+</Id>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:9:2:2" value="NATURAL1" typref="3603043417">
+<Attr>
+<Pos l="27" c="29" s="8"/>
+</Attr>
+</Id>
+</Binary_Exp>
+</Exp_Comparison>
+<Exp_Comparison op="=">
+<Attr>
+<Pos l="28" c="15" s="1"/>
+</Attr>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:10:1" value="Walls" typref="103245008">
+<Attr>
+<Pos l="28" c="9" s="5"/>
+</Attr>
+</Id>
+<Nary_Exp op="{" typref="103245008">
+<Attr>
+<Pos l="28" c="17" s="1"/>
+</Attr>
+<Binary_Exp op="|->" typref="3672872563">
+<Attr>
+<Pos l="28" c="21" s="3"/>
+</Attr>
+<Integer_Literal tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:10:2:1:1" value="1" typref="2701647786">
+<Attr>
+<Pos l="28" c="19" s="1"/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:10:2:1:2" value="3" typref="2701647786">
+<Attr>
+<Pos l="28" c="25" s="1"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+<Binary_Exp op="|->" typref="3672872563">
+<Attr>
+<Pos l="28" c="32" s="3"/>
+</Attr>
+<Integer_Literal tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:10:2:2:1" value="2" typref="2701647786">
+<Attr>
+<Pos l="28" c="30" s="1"/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:10:2:2:2" value="1" typref="2701647786">
+<Attr>
+<Pos l="28" c="36" s="1"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+<Binary_Exp op="|->" typref="3672872563">
+<Attr>
+<Pos l="28" c="43" s="3"/>
+</Attr>
+<Integer_Literal tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:10:2:3:1" value="2" typref="2701647786">
+<Attr>
+<Pos l="28" c="41" s="1"/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:10:2:3:2" value="3" typref="2701647786">
+<Attr>
+<Pos l="28" c="47" s="1"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+<Binary_Exp op="|->" typref="3672872563">
+<Attr>
+<Pos l="28" c="54" s="3"/>
+</Attr>
+<Integer_Literal tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:10:2:4:1" value="2" typref="2701647786">
+<Attr>
+<Pos l="28" c="52" s="1"/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:10:2:4:2" value="5" typref="2701647786">
+<Attr>
+<Pos l="28" c="58" s="1"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+<Binary_Exp op="|->" typref="3672872563">
+<Attr>
+<Pos l="28" c="65" s="3"/>
+</Attr>
+<Integer_Literal tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:10:2:5:1" value="3" typref="2701647786">
+<Attr>
+<Pos l="28" c="63" s="1"/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:10:2:5:2" value="3" typref="2701647786">
+<Attr>
+<Pos l="28" c="69" s="1"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+<Binary_Exp op="|->" typref="3672872563">
+<Attr>
+<Pos l="28" c="76" s="3"/>
+</Attr>
+<Integer_Literal tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:10:2:6:1" value="4" typref="2701647786">
+<Attr>
+<Pos l="28" c="74" s="1"/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:10:2:6:2" value="2" typref="2701647786">
+<Attr>
+<Pos l="28" c="80" s="1"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+<Binary_Exp op="|->" typref="3672872563">
+<Attr>
+<Pos l="28" c="87" s="3"/>
+</Attr>
+<Integer_Literal tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:10:2:7:1" value="4" typref="2701647786">
+<Attr>
+<Pos l="28" c="85" s="1"/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:10:2:7:2" value="3" typref="2701647786">
+<Attr>
+<Pos l="28" c="91" s="1"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+<Binary_Exp op="|->" typref="3672872563">
+<Attr>
+<Pos l="28" c="98" s="3"/>
+</Attr>
+<Integer_Literal tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:10:2:8:1" value="4" typref="2701647786">
+<Attr>
+<Pos l="28" c="96" s="1"/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:10:2:8:2" value="4" typref="2701647786">
+<Attr>
+<Pos l="28" c="102" s="1"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+<Binary_Exp op="|->" typref="3672872563">
+<Attr>
+<Pos l="28" c="109" s="3"/>
+</Attr>
+<Integer_Literal tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:10:2:9:1" value="6" typref="2701647786">
+<Attr>
+<Pos l="28" c="107" s="1"/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:10:2:9:2" value="1" typref="2701647786">
+<Attr>
+<Pos l="28" c="113" s="1"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+<Binary_Exp op="|->" typref="3672872563">
+<Attr>
+<Pos l="28" c="120" s="3"/>
+</Attr>
+<Integer_Literal tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:10:2:10:1" value="6" typref="2701647786">
+<Attr>
+<Pos l="28" c="118" s="1"/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:10:2:10:2" value="2" typref="2701647786">
+<Attr>
+<Pos l="28" c="124" s="1"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+<Binary_Exp op="|->" typref="3672872563">
+<Attr>
+<Pos l="28" c="131" s="3"/>
+</Attr>
+<Integer_Literal tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:10:2:11:1" value="6" typref="2701647786">
+<Attr>
+<Pos l="28" c="129" s="1"/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:10:2:11:2" value="4" typref="2701647786">
+<Attr>
+<Pos l="28" c="135" s="1"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+<Binary_Exp op="|->" typref="3672872563">
+<Attr>
+<Pos l="28" c="142" s="3"/>
+</Attr>
+<Integer_Literal tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:10:2:12:1" value="7" typref="2701647786">
+<Attr>
+<Pos l="28" c="140" s="1"/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:10:2:12:2" value="4" typref="2701647786">
+<Attr>
+<Pos l="28" c="146" s="1"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+</Nary_Exp>
+</Exp_Comparison>
+</Nary_Pred>
+</Define>
+<Define name="inprp" merge="="/>
+<Define name="inext" merge="="/>
+<Define name="inv" merge="-">
+<Attr>
+<Pos l="35" c="5" s="9"/>
+</Attr>
+<Nary_Pred op="&amp;">
+<Exp_Comparison op=":" initialTag="((visited_route) : (seq(((NATURAL-{0}) * (NATURAL-{0})))))">
+<Attr>
+<Pos l="36" c="23" s="1"/>
+</Attr>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:5:1:1:1" value="visited_route" typref="1905100487">
+<Attr>
+<Pos l="36" c="9" s="13"/>
+</Attr>
+</Id>
+<Unary_Exp op="seq" typref="1382780156">
+<Attr>
+<Pos l="36" c="25" s="3"/>
+</Attr>
+<Binary_Exp op="*" typref="103245008">
+<Attr>
+<Pos l="36" c="38" s="1"/>
+</Attr>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:5:1:1:2:1:1" value="NATURAL1" typref="3603043417">
+<Attr>
+<Pos l="36" c="29" s="8"/>
+</Attr>
+</Id>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:5:1:1:2:1:2" value="NATURAL1" typref="3603043417">
+<Attr>
+<Pos l="36" c="40" s="8"/>
+</Attr>
+</Id>
+</Binary_Exp>
+</Unary_Exp>
+</Exp_Comparison>
+<Exp_Comparison op=":" initialTag="((visited_x_coordinate) : ((NATURAL-{0})))">
+<Attr>
+<Pos l="37" c="30" s="1"/>
+</Attr>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:5:1:2:1" value="visited_x_coordinate" typref="2701647786">
+<Attr>
+<Pos l="37" c="9" s="20"/>
+</Attr>
+</Id>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:5:1:2:2" value="NATURAL1" typref="3603043417">
+<Attr>
+<Pos l="37" c="32" s="8"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison op=":" initialTag="((visited_y_coordinate) : ((NATURAL-{0})))">
+<Attr>
+<Pos l="38" c="30" s="1"/>
+</Attr>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:5:1:3:1" value="visited_y_coordinate" typref="2701647786">
+<Attr>
+<Pos l="38" c="9" s="20"/>
+</Attr>
+</Id>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:5:1:3:2" value="NATURAL1" typref="3603043417">
+<Attr>
+<Pos l="38" c="32" s="8"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Nary_Pred>
+</Define>
+<Define name="ass" merge="="/>
+<Define name="cst" merge="="/>
+<Proof_Obligation>
+<Comment>Initialisation dans une machine abstraite</Comment>
+<Tag>Initialisation</Tag>
+<Tag>Invariant</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Local_Hyp num="1">
+<Nary_Pred op="&amp;"/>
+</Local_Hyp>
+<Simple_Goal>
+<Tag>Invariant is preserved</Tag>
+<Goal>
+<Binary_Pred op="=>">
+<Ref_Hyp num="1"/>
+<Exp_Comparison goalTag="Invariant is preserved" op=":" initialTag="((visited_route) : (seq(((NATURAL-{0}) * (NATURAL-{0})))))">
+<Attr>
+<Pos l="36" c="23" s="1"/>
+</Attr>
+<EmptySeq tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:6:1:2:1,D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:5:1:1:1,D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:6:1:1:1" typref="1905100487">
+<Attr>
+<Pos l="41" c="9" s="13"/>
+</Attr>
+</EmptySeq>
+<Unary_Exp op="seq" typref="1382780156">
+<Attr>
+<Pos l="36" c="25" s="3"/>
+</Attr>
+<Binary_Exp op="*" typref="103245008">
+<Attr>
+<Pos l="36" c="38" s="1"/>
+</Attr>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:5:1:1:2:1:1" value="NATURAL1" typref="3603043417">
+<Attr>
+<Pos l="36" c="29" s="8"/>
+</Attr>
+</Id>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:5:1:1:2:1:2" value="NATURAL1" typref="3603043417">
+<Attr>
+<Pos l="36" c="40" s="8"/>
+</Attr>
+</Id>
+</Binary_Exp>
+</Unary_Exp>
+</Exp_Comparison>
+</Binary_Pred>
+</Goal>
+<Proof_State methodList="?" proofState="Unproved" passList="Force(0),?"/>
+</Simple_Goal>
+<Simple_Goal>
+<Tag>Invariant is preserved</Tag>
+<Goal>
+<Binary_Pred op="=>">
+<Ref_Hyp num="1"/>
+<Exp_Comparison goalTag="Invariant is preserved" op=":" initialTag="((visited_x_coordinate) : ((NATURAL-{0})))">
+<Attr>
+<Pos l="37" c="30" s="1"/>
+</Attr>
+<Integer_Literal tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:6:1:2:2,D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:5:1:2:1,D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:6:1:1:2" value="1" typref="2701647786">
+<Attr>
+<Pos l="41" c="24" s="20"/>
+</Attr>
+</Integer_Literal>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:5:1:2:2" value="NATURAL1" typref="3603043417">
+<Attr>
+<Pos l="37" c="32" s="8"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Binary_Pred>
+</Goal>
+<Proof_State methodList="?" proofState="Unproved" passList="Force(0),?"/>
+</Simple_Goal>
+</Proof_Obligation>
+<Proof_Obligation>
+<Comment>Operations dans une machine abstraite</Comment>
+<Tag>getPosition</Tag>
+<Tag>INVARIANT</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Definition name="inv"/>
+<Definition name="ass"/>
+<Hypothesis/>
+<Local_Hyp num="1">
+<Nary_Pred op="&amp;"/>
+</Local_Hyp>
+</Proof_Obligation>
+<Proof_Obligation>
+<Comment>Operations dans une machine abstraite</Comment>
+<Tag>visitedSquare</Tag>
+<Tag>INVARIANT</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Definition name="inv"/>
+<Definition name="ass"/>
+<Hypothesis>
+<Nary_Pred op="&amp;">
+<Exp_Comparison op=":">
+<Attr>
+<Pos l="54" c="23" s="1"/>
+</Attr>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:7:2:3:1:1:1" value="xPoint" typref="2701647786">
+<Attr>
+<Pos l="54" c="16" s="6"/>
+</Attr>
+</Id>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:7:2:3:1:1:2" value="X_Coordinate" typref="3603043417">
+<Attr>
+<Pos l="54" c="25" s="12"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison op=":">
+<Attr>
+<Pos l="55" c="23" s="1"/>
+</Attr>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:7:2:3:1:2:1" value="yPoint" typref="2701647786">
+<Attr>
+<Pos l="55" c="16" s="6"/>
+</Attr>
+</Id>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:7:2:3:1:2:2" value="Y_Coordinate" typref="3603043417">
+<Attr>
+<Pos l="55" c="25" s="12"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Nary_Pred>
+</Hypothesis>
+<Local_Hyp num="1">
+<Nary_Pred op="&amp;"/>
+</Local_Hyp>
+<Local_Hyp num="2">
+<Exp_Comparison op=":">
+<Attr>
+<Pos l="58" c="39" s="1"/>
+</Attr>
+<Binary_Exp op="|->">
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:7:2:4:1:1:1:1:1" value="xPoint" typref="2701647786">
+<Attr>
+<Pos l="58" c="21" s="6"/>
+</Attr>
+</Id>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:7:2:4:1:1:1:1:2" value="yPoint" typref="2701647786">
+<Attr>
+<Pos l="58" c="32" s="6"/>
+</Attr>
+</Id>
+</Binary_Exp>
+<Unary_Exp op="ran" typref="103245008">
+<Attr>
+<Pos l="58" c="41" s="3"/>
+</Attr>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:7:2:4:1:1:1:2:1" value="visited_route" typref="1905100487">
+<Attr>
+<Pos l="58" c="45" s="13"/>
+</Attr>
+</Id>
+</Unary_Exp>
+</Exp_Comparison>
+</Local_Hyp>
+<Local_Hyp num="3">
+<Nary_Pred op="&amp;"/>
+</Local_Hyp>
+<Local_Hyp num="4">
+<Unary_Pred op="not">
+<Exp_Comparison op=":">
+<Attr>
+<Pos l="58" c="39" s="1"/>
+</Attr>
+<Binary_Exp op="|->">
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:7:2:4:1:1:1:1:1" value="xPoint" typref="2701647786">
+<Attr>
+<Pos l="58" c="21" s="6"/>
+</Attr>
+</Id>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:7:2:4:1:1:1:1:2" value="yPoint" typref="2701647786">
+<Attr>
+<Pos l="58" c="32" s="6"/>
+</Attr>
+</Id>
+</Binary_Exp>
+<Unary_Exp op="ran" typref="103245008">
+<Attr>
+<Pos l="58" c="41" s="3"/>
+</Attr>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:7:2:4:1:1:1:2:1" value="visited_route" typref="1905100487">
+<Attr>
+<Pos l="58" c="45" s="13"/>
+</Attr>
+</Id>
+</Unary_Exp>
+</Exp_Comparison>
+</Unary_Pred>
+</Local_Hyp>
+</Proof_Obligation>
+<Proof_Obligation>
+<Comment>Operations dans une machine abstraite</Comment>
+<Tag>foundExit</Tag>
+<Tag>INVARIANT</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Definition name="inv"/>
+<Definition name="ass"/>
+<Hypothesis/>
+<Local_Hyp num="1">
+<Nary_Pred op="&amp;"/>
+</Local_Hyp>
+<Local_Hyp num="2">
+<Exp_Comparison op=":">
+<Attr>
+<Pos l="68" c="65" s="1"/>
+</Attr>
+<Binary_Exp op="|->" typref="3672872563">
+<Attr>
+<Pos l="68" c="39" s="3"/>
+</Attr>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:7:3:2:1:1:1:1:1" value="visited_x_coordinate" typref="2701647786">
+<Attr>
+<Pos l="68" c="18" s="20"/>
+</Attr>
+</Id>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:7:3:2:1:1:1:1:2" value="visited_y_coordinate" typref="2701647786">
+<Attr>
+<Pos l="68" c="43" s="20"/>
+</Attr>
+</Id>
+</Binary_Exp>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:7:3:2:1:1:1:2" value="Exit_Square" typref="103245008">
+<Attr>
+<Pos l="68" c="67" s="11"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Local_Hyp>
+<Local_Hyp num="3">
+<Nary_Pred op="&amp;"/>
+</Local_Hyp>
+<Local_Hyp num="4">
+<Unary_Pred op="not">
+<Exp_Comparison op=":">
+<Attr>
+<Pos l="68" c="65" s="1"/>
+</Attr>
+<Binary_Exp op="|->" typref="3672872563">
+<Attr>
+<Pos l="68" c="39" s="3"/>
+</Attr>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:7:3:2:1:1:1:1:1" value="visited_x_coordinate" typref="2701647786">
+<Attr>
+<Pos l="68" c="18" s="20"/>
+</Attr>
+</Id>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:7:3:2:1:1:1:1:2" value="visited_y_coordinate" typref="2701647786">
+<Attr>
+<Pos l="68" c="43" s="20"/>
+</Attr>
+</Id>
+</Binary_Exp>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:7:3:2:1:1:1:2" value="Exit_Square" typref="103245008">
+<Attr>
+<Pos l="68" c="67" s="11"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Unary_Pred>
+</Local_Hyp>
+</Proof_Obligation>
+<Proof_Obligation>
+<Comment>Operations dans une machine abstraite</Comment>
+<Tag>getRoute</Tag>
+<Tag>INVARIANT</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Definition name="inv"/>
+<Definition name="ass"/>
+<Hypothesis/>
+<Local_Hyp num="1">
+<Nary_Pred op="&amp;"/>
+</Local_Hyp>
+</Proof_Obligation>
+<Proof_Obligation>
+<Comment>Operations dans une machine abstraite</Comment>
+<Tag>update</Tag>
+<Tag>INVARIANT</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Definition name="inv"/>
+<Definition name="ass"/>
+<Hypothesis>
+<Nary_Pred op="&amp;">
+<Exp_Comparison op=":">
+<Attr>
+<Pos l="84" c="20" s="1"/>
+</Attr>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:7:5:2:1:1:1" value="x_point" typref="2701647786">
+<Attr>
+<Pos l="84" c="12" s="7"/>
+</Attr>
+</Id>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:7:5:2:1:1:2" value="X_Coordinate" typref="3603043417">
+<Attr>
+<Pos l="84" c="22" s="12"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison op=":">
+<Attr>
+<Pos l="84" c="45" s="1"/>
+</Attr>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:7:5:2:1:2:1" value="y_point" typref="2701647786">
+<Attr>
+<Pos l="84" c="37" s="7"/>
+</Attr>
+</Id>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:7:5:2:1:2:2" value="Y_Coordinate" typref="3603043417">
+<Attr>
+<Pos l="84" c="47" s="12"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison op=":">
+<Attr>
+<Pos l="84" c="68" s="1"/>
+</Attr>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:7:5:2:1:3:1" value="route" typref="1905100487">
+<Attr>
+<Pos l="84" c="62" s="5"/>
+</Attr>
+</Id>
+<Unary_Exp op="seq" typref="1382780156">
+<Attr>
+<Pos l="84" c="70" s="3"/>
+</Attr>
+<Binary_Exp op="*" typref="103245008">
+<Attr>
+<Pos l="84" c="83" s="1"/>
+</Attr>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:7:5:2:1:3:2:1:1" value="NATURAL1" typref="3603043417">
+<Attr>
+<Pos l="84" c="74" s="8"/>
+</Attr>
+</Id>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:7:5:2:1:3:2:1:2" value="NATURAL1" typref="3603043417">
+<Attr>
+<Pos l="84" c="85" s="8"/>
+</Attr>
+</Id>
+</Binary_Exp>
+</Unary_Exp>
+</Exp_Comparison>
+</Nary_Pred>
+</Hypothesis>
+<Local_Hyp num="1">
+<Nary_Pred op="&amp;"/>
+</Local_Hyp>
+<Simple_Goal>
+<Tag>Invariant is preserved</Tag>
+<Goal>
+<Binary_Pred op="=>">
+<Ref_Hyp num="1"/>
+<Exp_Comparison goalTag="Invariant is preserved" op=":" initialTag="((visited_x_coordinate) : ((NATURAL-{0})))">
+<Attr>
+<Pos l="37" c="30" s="1"/>
+</Attr>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:7:5:3:1:2:2:1,D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:5:1:2:1,D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:7:5:3:1:2:1:1" value="x_point" typref="2701647786">
+<Attr>
+<Pos l="87" c="12" s="20"/>
+</Attr>
+</Id>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:5:1:2:2" value="NATURAL1" typref="3603043417">
+<Attr>
+<Pos l="37" c="32" s="8"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Binary_Pred>
+</Goal>
+<Proof_State methodList="?" proofState="Unproved" passList="Force(0),?"/>
+</Simple_Goal>
+<Simple_Goal>
+<Tag>Invariant is preserved</Tag>
+<Goal>
+<Binary_Pred op="=>">
+<Ref_Hyp num="1"/>
+<Exp_Comparison goalTag="Invariant is preserved" op=":" initialTag="((visited_y_coordinate) : ((NATURAL-{0})))">
+<Attr>
+<Pos l="38" c="30" s="1"/>
+</Attr>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:7:5:3:1:3:2:1,D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:5:1:3:1,D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:7:5:3:1:3:1:1" value="y_point" typref="2701647786">
+<Attr>
+<Pos l="88" c="12" s="20"/>
+</Attr>
+</Id>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:5:1:3:2" value="NATURAL1" typref="3603043417">
+<Attr>
+<Pos l="38" c="32" s="8"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Binary_Pred>
+</Goal>
+<Proof_State methodList="?" proofState="Unproved" passList="Force(0),?"/>
+</Simple_Goal>
+</Proof_Obligation>
+<Proof_Obligation>
+<Tag>WellDefinednessConstraints</Tag>
+</Proof_Obligation>
+<Proof_Obligation>
+<Tag>WellDefinednessProperties</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Hypothesis>
+<Attr>
+<Pos l="8" c="5" s="4"/>
+</Attr>
+<Set>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:1:1:1" value="OUTPUT_MESSAGE" typref="3990292830">
+<Attr>
+<Pos l="9" c="9" s="14"/>
+</Attr>
+</Id>
+<Enumerated_Values>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:1:1:2:1" value="Yes" typref="3689965243">
+<Attr>
+<Pos l="9" c="27" s="3"/>
+</Attr>
+</Id>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:1:1:2:2" value="No" typref="3689965243">
+<Attr>
+<Pos l="9" c="32" s="2"/>
+</Attr>
+</Id>
+</Enumerated_Values>
+</Set>
+</Hypothesis>
+<Local_Hyp num="1">
+<Exp_Comparison op=":">
+<Attr>
+<Pos l="27" c="14" s="1"/>
+</Attr>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:9:1" value="Walls" typref="103245008">
+<Attr>
+<Pos l="27" c="9" s="5"/>
+</Attr>
+</Id>
+<Binary_Exp op="&lt;->" typref="3083833907">
+<Attr>
+<Pos l="27" c="25" s="3"/>
+</Attr>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:9:2:1" value="NATURAL1" typref="3603043417">
+<Attr>
+<Pos l="27" c="16" s="8"/>
+</Attr>
+</Id>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:9:2:2" value="NATURAL1" typref="3603043417">
+<Attr>
+<Pos l="27" c="29" s="8"/>
+</Attr>
+</Id>
+</Binary_Exp>
+</Exp_Comparison>
+</Local_Hyp>
+<Local_Hyp num="2">
+<Exp_Comparison op="=">
+<Attr>
+<Pos l="26" c="21" s="1"/>
+</Attr>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:8:1" value="Exit_Square" typref="103245008">
+<Attr>
+<Pos l="26" c="9" s="11"/>
+</Attr>
+</Id>
+<Nary_Exp op="{" typref="103245008">
+<Attr>
+<Pos l="26" c="24" s="1"/>
+</Attr>
+<Binary_Exp op="|->" typref="3672872563">
+<Attr>
+<Pos l="26" c="28" s="3"/>
+</Attr>
+<Integer_Literal tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:8:2:1:1" value="1" typref="2701647786">
+<Attr>
+<Pos l="26" c="26" s="1"/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:8:2:1:2" value="5" typref="2701647786">
+<Attr>
+<Pos l="26" c="32" s="1"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+</Nary_Exp>
+</Exp_Comparison>
+</Local_Hyp>
+<Local_Hyp num="3">
+<Exp_Comparison op=":">
+<Attr>
+<Pos l="25" c="20" s="1"/>
+</Attr>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:7:1" value="Exit_Square" typref="103245008">
+<Attr>
+<Pos l="25" c="9" s="11"/>
+</Attr>
+</Id>
+<Binary_Exp op="&lt;->" typref="3083833907">
+<Attr>
+<Pos l="25" c="31" s="3"/>
+</Attr>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:7:2:1" value="NATURAL1" typref="3603043417">
+<Attr>
+<Pos l="25" c="22" s="8"/>
+</Attr>
+</Id>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:7:2:2" value="NATURAL1" typref="3603043417">
+<Attr>
+<Pos l="25" c="35" s="8"/>
+</Attr>
+</Id>
+</Binary_Exp>
+</Exp_Comparison>
+</Local_Hyp>
+<Local_Hyp num="4">
+<Exp_Comparison op="=">
+<Attr>
+<Pos l="24" c="25" s="1"/>
+</Attr>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:6:1" value="Entrance_Square" typref="103245008">
+<Attr>
+<Pos l="24" c="9" s="15"/>
+</Attr>
+</Id>
+<Nary_Exp op="{" typref="103245008">
+<Attr>
+<Pos l="24" c="27" s="1"/>
+</Attr>
+<Binary_Exp op="|->" typref="3672872563">
+<Attr>
+<Pos l="24" c="31" s="3"/>
+</Attr>
+<Integer_Literal tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:6:2:1:1" value="1" typref="2701647786">
+<Attr>
+<Pos l="24" c="29" s="1"/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:6:2:1:2" value="1" typref="2701647786">
+<Attr>
+<Pos l="24" c="35" s="1"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+</Nary_Exp>
+</Exp_Comparison>
+</Local_Hyp>
+<Local_Hyp num="5">
+<Exp_Comparison op=":">
+<Attr>
+<Pos l="23" c="24" s="1"/>
+</Attr>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:5:1" value="Entrance_Square" typref="103245008">
+<Attr>
+<Pos l="23" c="9" s="15"/>
+</Attr>
+</Id>
+<Binary_Exp op="&lt;->" typref="3083833907">
+<Attr>
+<Pos l="23" c="35" s="3"/>
+</Attr>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:5:2:1" value="NATURAL1" typref="3603043417">
+<Attr>
+<Pos l="23" c="26" s="8"/>
+</Attr>
+</Id>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:5:2:2" value="NATURAL1" typref="3603043417">
+<Attr>
+<Pos l="23" c="39" s="8"/>
+</Attr>
+</Id>
+</Binary_Exp>
+</Exp_Comparison>
+</Local_Hyp>
+<Local_Hyp num="6">
+<Exp_Comparison op="=">
+<Attr>
+<Pos l="22" c="22" s="1"/>
+</Attr>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:4:1" value="Y_Coordinate" typref="3603043417">
+<Attr>
+<Pos l="22" c="9" s="12"/>
+</Attr>
+</Id>
+<Binary_Exp op=".." typref="3603043417">
+<Attr>
+<Pos l="22" c="25" s="2"/>
+</Attr>
+<Integer_Literal tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:4:2:1" value="1" typref="2701647786">
+<Attr>
+<Pos l="22" c="24" s="1"/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:4:2:2" value="5" typref="2701647786">
+<Attr>
+<Pos l="22" c="27" s="1"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+</Exp_Comparison>
+</Local_Hyp>
+<Local_Hyp num="7">
+<Exp_Comparison op="&lt;:">
+<Attr>
+<Pos l="21" c="22" s="2"/>
+</Attr>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:3:1" value="Y_Coordinate" typref="3603043417">
+<Attr>
+<Pos l="21" c="9" s="12"/>
+</Attr>
+</Id>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:3:2" value="NATURAL1" typref="3603043417">
+<Attr>
+<Pos l="21" c="25" s="8"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Local_Hyp>
+<Local_Hyp num="8">
+<Exp_Comparison op="=">
+<Attr>
+<Pos l="20" c="22" s="1"/>
+</Attr>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:2:1" value="X_Coordinate" typref="3603043417">
+<Attr>
+<Pos l="20" c="9" s="12"/>
+</Attr>
+</Id>
+<Binary_Exp op=".." typref="3603043417">
+<Attr>
+<Pos l="20" c="25" s="2"/>
+</Attr>
+<Integer_Literal tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:2:2:1" value="1" typref="2701647786">
+<Attr>
+<Pos l="20" c="24" s="1"/>
+</Attr>
+</Integer_Literal>
+<Integer_Literal tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:2:2:2" value="7" typref="2701647786">
+<Attr>
+<Pos l="20" c="27" s="1"/>
+</Attr>
+</Integer_Literal>
+</Binary_Exp>
+</Exp_Comparison>
+</Local_Hyp>
+<Local_Hyp num="9">
+<Exp_Comparison op="&lt;:">
+<Attr>
+<Pos l="19" c="22" s="2"/>
+</Attr>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:1:1" value="X_Coordinate" typref="3603043417">
+<Attr>
+<Pos l="19" c="9" s="12"/>
+</Attr>
+</Id>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:4:1:1:2" value="NATURAL1" typref="3603043417">
+<Attr>
+<Pos l="19" c="25" s="8"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Local_Hyp>
+</Proof_Obligation>
+<Proof_Obligation>
+<Tag>WellDefinednessInvariant</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Local_Hyp num="1">
+<Exp_Comparison op=":" initialTag="((visited_x_coordinate) : ((NATURAL-{0})))">
+<Attr>
+<Pos l="37" c="30" s="1"/>
+</Attr>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:5:1:2:1" value="visited_x_coordinate" typref="2701647786">
+<Attr>
+<Pos l="37" c="9" s="20"/>
+</Attr>
+</Id>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:5:1:2:2" value="NATURAL1" typref="3603043417">
+<Attr>
+<Pos l="37" c="32" s="8"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Local_Hyp>
+<Local_Hyp num="2">
+<Exp_Comparison op=":" initialTag="((visited_route) : (seq(((NATURAL-{0}) * (NATURAL-{0})))))">
+<Attr>
+<Pos l="36" c="23" s="1"/>
+</Attr>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:5:1:1:1" value="visited_route" typref="1905100487">
+<Attr>
+<Pos l="36" c="9" s="13"/>
+</Attr>
+</Id>
+<Unary_Exp op="seq" typref="1382780156">
+<Attr>
+<Pos l="36" c="25" s="3"/>
+</Attr>
+<Binary_Exp op="*" typref="103245008">
+<Attr>
+<Pos l="36" c="38" s="1"/>
+</Attr>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:5:1:1:2:1:1" value="NATURAL1" typref="3603043417">
+<Attr>
+<Pos l="36" c="29" s="8"/>
+</Attr>
+</Id>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:5:1:1:2:1:2" value="NATURAL1" typref="3603043417">
+<Attr>
+<Pos l="36" c="40" s="8"/>
+</Attr>
+</Id>
+</Binary_Exp>
+</Unary_Exp>
+</Exp_Comparison>
+</Local_Hyp>
+</Proof_Obligation>
+<Proof_Obligation>
+<Tag>WellDefinednessInitialisation</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+</Proof_Obligation>
+<Proof_Obligation>
+<Comment>Operations dans une machine abstraite</Comment>
+<Tag>WellDefinedness_Precondition_getPosition</Tag>
+<Tag>INVARIANT</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Definition name="inv"/>
+<Definition name="ass"/>
+</Proof_Obligation>
+<Proof_Obligation>
+<Comment>Operations dans une machine abstraite</Comment>
+<Tag>WellDefinedness_getPosition</Tag>
+<Tag>INVARIANT</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Definition name="inv"/>
+<Definition name="ass"/>
+<Hypothesis/>
+</Proof_Obligation>
+<Proof_Obligation>
+<Comment>Operations dans une machine abstraite</Comment>
+<Tag>WellDefinedness_Precondition_visitedSquare</Tag>
+<Tag>INVARIANT</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Definition name="inv"/>
+<Definition name="ass"/>
+<Local_Hyp num="1">
+<Exp_Comparison op=":">
+<Attr>
+<Pos l="54" c="23" s="1"/>
+</Attr>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:7:2:3:1:1:1" value="xPoint" typref="2701647786">
+<Attr>
+<Pos l="54" c="16" s="6"/>
+</Attr>
+</Id>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:7:2:3:1:1:2" value="X_Coordinate" typref="3603043417">
+<Attr>
+<Pos l="54" c="25" s="12"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Local_Hyp>
+</Proof_Obligation>
+<Proof_Obligation>
+<Comment>Operations dans une machine abstraite</Comment>
+<Tag>WellDefinedness_visitedSquare</Tag>
+<Tag>INVARIANT</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Definition name="inv"/>
+<Definition name="ass"/>
+<Hypothesis>
+<Nary_Pred op="&amp;">
+<Exp_Comparison op=":">
+<Attr>
+<Pos l="54" c="23" s="1"/>
+</Attr>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:7:2:3:1:1:1" value="xPoint" typref="2701647786">
+<Attr>
+<Pos l="54" c="16" s="6"/>
+</Attr>
+</Id>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:7:2:3:1:1:2" value="X_Coordinate" typref="3603043417">
+<Attr>
+<Pos l="54" c="25" s="12"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison op=":">
+<Attr>
+<Pos l="55" c="23" s="1"/>
+</Attr>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:7:2:3:1:2:1" value="yPoint" typref="2701647786">
+<Attr>
+<Pos l="55" c="16" s="6"/>
+</Attr>
+</Id>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:7:2:3:1:2:2" value="Y_Coordinate" typref="3603043417">
+<Attr>
+<Pos l="55" c="25" s="12"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Nary_Pred>
+</Hypothesis>
+<Local_Hyp num="1">
+<Exp_Comparison op=":">
+<Attr>
+<Pos l="58" c="39" s="1"/>
+</Attr>
+<Binary_Exp op="|->">
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:7:2:4:1:1:1:1:1" value="xPoint" typref="2701647786">
+<Attr>
+<Pos l="58" c="21" s="6"/>
+</Attr>
+</Id>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:7:2:4:1:1:1:1:2" value="yPoint" typref="2701647786">
+<Attr>
+<Pos l="58" c="32" s="6"/>
+</Attr>
+</Id>
+</Binary_Exp>
+<Unary_Exp op="ran" typref="103245008">
+<Attr>
+<Pos l="58" c="41" s="3"/>
+</Attr>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:7:2:4:1:1:1:2:1" value="visited_route" typref="1905100487">
+<Attr>
+<Pos l="58" c="45" s="13"/>
+</Attr>
+</Id>
+</Unary_Exp>
+</Exp_Comparison>
+</Local_Hyp>
+<Local_Hyp num="2">
+<Unary_Pred op="not">
+<Exp_Comparison op=":">
+<Attr>
+<Pos l="58" c="39" s="1"/>
+</Attr>
+<Binary_Exp op="|->">
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:7:2:4:1:1:1:1:1" value="xPoint" typref="2701647786">
+<Attr>
+<Pos l="58" c="21" s="6"/>
+</Attr>
+</Id>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:7:2:4:1:1:1:1:2" value="yPoint" typref="2701647786">
+<Attr>
+<Pos l="58" c="32" s="6"/>
+</Attr>
+</Id>
+</Binary_Exp>
+<Unary_Exp op="ran" typref="103245008">
+<Attr>
+<Pos l="58" c="41" s="3"/>
+</Attr>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:7:2:4:1:1:1:2:1" value="visited_route" typref="1905100487">
+<Attr>
+<Pos l="58" c="45" s="13"/>
+</Attr>
+</Id>
+</Unary_Exp>
+</Exp_Comparison>
+</Unary_Pred>
+</Local_Hyp>
+</Proof_Obligation>
+<Proof_Obligation>
+<Comment>Operations dans une machine abstraite</Comment>
+<Tag>WellDefinedness_Precondition_foundExit</Tag>
+<Tag>INVARIANT</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Definition name="inv"/>
+<Definition name="ass"/>
+</Proof_Obligation>
+<Proof_Obligation>
+<Comment>Operations dans une machine abstraite</Comment>
+<Tag>WellDefinedness_foundExit</Tag>
+<Tag>INVARIANT</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Definition name="inv"/>
+<Definition name="ass"/>
+<Hypothesis/>
+<Local_Hyp num="1">
+<Exp_Comparison op=":">
+<Attr>
+<Pos l="68" c="65" s="1"/>
+</Attr>
+<Binary_Exp op="|->" typref="3672872563">
+<Attr>
+<Pos l="68" c="39" s="3"/>
+</Attr>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:7:3:2:1:1:1:1:1" value="visited_x_coordinate" typref="2701647786">
+<Attr>
+<Pos l="68" c="18" s="20"/>
+</Attr>
+</Id>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:7:3:2:1:1:1:1:2" value="visited_y_coordinate" typref="2701647786">
+<Attr>
+<Pos l="68" c="43" s="20"/>
+</Attr>
+</Id>
+</Binary_Exp>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:7:3:2:1:1:1:2" value="Exit_Square" typref="103245008">
+<Attr>
+<Pos l="68" c="67" s="11"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Local_Hyp>
+<Local_Hyp num="2">
+<Unary_Pred op="not">
+<Exp_Comparison op=":">
+<Attr>
+<Pos l="68" c="65" s="1"/>
+</Attr>
+<Binary_Exp op="|->" typref="3672872563">
+<Attr>
+<Pos l="68" c="39" s="3"/>
+</Attr>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:7:3:2:1:1:1:1:1" value="visited_x_coordinate" typref="2701647786">
+<Attr>
+<Pos l="68" c="18" s="20"/>
+</Attr>
+</Id>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:7:3:2:1:1:1:1:2" value="visited_y_coordinate" typref="2701647786">
+<Attr>
+<Pos l="68" c="43" s="20"/>
+</Attr>
+</Id>
+</Binary_Exp>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:7:3:2:1:1:1:2" value="Exit_Square" typref="103245008">
+<Attr>
+<Pos l="68" c="67" s="11"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Unary_Pred>
+</Local_Hyp>
+</Proof_Obligation>
+<Proof_Obligation>
+<Comment>Operations dans une machine abstraite</Comment>
+<Tag>WellDefinedness_Precondition_getRoute</Tag>
+<Tag>INVARIANT</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Definition name="inv"/>
+<Definition name="ass"/>
+</Proof_Obligation>
+<Proof_Obligation>
+<Comment>Operations dans une machine abstraite</Comment>
+<Tag>WellDefinedness_getRoute</Tag>
+<Tag>INVARIANT</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Definition name="inv"/>
+<Definition name="ass"/>
+<Hypothesis/>
+</Proof_Obligation>
+<Proof_Obligation>
+<Comment>Operations dans une machine abstraite</Comment>
+<Tag>WellDefinedness_Precondition_update</Tag>
+<Tag>INVARIANT</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Definition name="inv"/>
+<Definition name="ass"/>
+<Local_Hyp num="1">
+<Exp_Comparison op=":">
+<Attr>
+<Pos l="84" c="45" s="1"/>
+</Attr>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:7:5:2:1:2:1" value="y_point" typref="2701647786">
+<Attr>
+<Pos l="84" c="37" s="7"/>
+</Attr>
+</Id>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:7:5:2:1:2:2" value="Y_Coordinate" typref="3603043417">
+<Attr>
+<Pos l="84" c="47" s="12"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Local_Hyp>
+<Local_Hyp num="2">
+<Exp_Comparison op=":">
+<Attr>
+<Pos l="84" c="20" s="1"/>
+</Attr>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:7:5:2:1:1:1" value="x_point" typref="2701647786">
+<Attr>
+<Pos l="84" c="12" s="7"/>
+</Attr>
+</Id>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:7:5:2:1:1:2" value="X_Coordinate" typref="3603043417">
+<Attr>
+<Pos l="84" c="22" s="12"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+</Local_Hyp>
+</Proof_Obligation>
+<Proof_Obligation>
+<Comment>Operations dans une machine abstraite</Comment>
+<Tag>WellDefinedness_update</Tag>
+<Tag>INVARIANT</Tag>
+<Definition name="B definitions"/>
+<Definition name="ctx"/>
+<Definition name="cst"/>
+<Definition name="lprp"/>
+<Definition name="inprp"/>
+<Definition name="inext"/>
+<Definition name="seext"/>
+<Definition name="inv"/>
+<Definition name="ass"/>
+<Hypothesis>
+<Nary_Pred op="&amp;">
+<Exp_Comparison op=":">
+<Attr>
+<Pos l="84" c="20" s="1"/>
+</Attr>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:7:5:2:1:1:1" value="x_point" typref="2701647786">
+<Attr>
+<Pos l="84" c="12" s="7"/>
+</Attr>
+</Id>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:7:5:2:1:1:2" value="X_Coordinate" typref="3603043417">
+<Attr>
+<Pos l="84" c="22" s="12"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison op=":">
+<Attr>
+<Pos l="84" c="45" s="1"/>
+</Attr>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:7:5:2:1:2:1" value="y_point" typref="2701647786">
+<Attr>
+<Pos l="84" c="37" s="7"/>
+</Attr>
+</Id>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:7:5:2:1:2:2" value="Y_Coordinate" typref="3603043417">
+<Attr>
+<Pos l="84" c="47" s="12"/>
+</Attr>
+</Id>
+</Exp_Comparison>
+<Exp_Comparison op=":">
+<Attr>
+<Pos l="84" c="68" s="1"/>
+</Attr>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:7:5:2:1:3:1" value="route" typref="1905100487">
+<Attr>
+<Pos l="84" c="62" s="5"/>
+</Attr>
+</Id>
+<Unary_Exp op="seq" typref="1382780156">
+<Attr>
+<Pos l="84" c="70" s="3"/>
+</Attr>
+<Binary_Exp op="*" typref="103245008">
+<Attr>
+<Pos l="84" c="83" s="1"/>
+</Attr>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:7:5:2:1:3:2:1:1" value="NATURAL1" typref="3603043417">
+<Attr>
+<Pos l="84" c="74" s="8"/>
+</Attr>
+</Id>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:7:5:2:1:3:2:1:2" value="NATURAL1" typref="3603043417">
+<Attr>
+<Pos l="84" c="85" s="8"/>
+</Attr>
+</Id>
+</Binary_Exp>
+</Unary_Exp>
+</Exp_Comparison>
+</Nary_Pred>
+</Hypothesis>
+</Proof_Obligation>
+<TypeInfos>
+<Type id="3990292830">
+<Unary_Exp op="POW">
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:8:1:1:1" value="OUTPUT_MESSAGE"/>
+</Unary_Exp>
+</Type>
+<Type id="3689965243">
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:8:2:1" value="OUTPUT_MESSAGE"/>
+</Type>
+<Type id="3603043417">
+<Unary_Exp op="POW">
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:8:3:1:1" value="INTEGER"/>
+</Unary_Exp>
+</Type>
+<Type id="103245008">
+<Unary_Exp op="POW">
+<Binary_Exp op="*">
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:8:4:1:1:1" value="INTEGER"/>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:8:4:1:1:2" value="INTEGER"/>
+</Binary_Exp>
+</Unary_Exp>
+</Type>
+<Type id="1905100487">
+<Unary_Exp op="POW">
+<Binary_Exp op="*">
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:8:5:1:1:1" value="INTEGER"/>
+<Binary_Exp op="*">
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:8:5:1:1:2:1" value="INTEGER"/>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:8:5:1:1:2:2" value="INTEGER"/>
+</Binary_Exp>
+</Binary_Exp>
+</Unary_Exp>
+</Type>
+<Type id="2701647786">
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:8:6:1" value="INTEGER"/>
+</Type>
+<Type id="3083833907">
+<Unary_Exp op="POW">
+<Unary_Exp op="POW">
+<Binary_Exp op="*">
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:8:7:1:1:1:1" value="INTEGER"/>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:8:7:1:1:1:2" value="INTEGER"/>
+</Binary_Exp>
+</Unary_Exp>
+</Unary_Exp>
+</Type>
+<Type id="3672872563">
+<Binary_Exp op="*">
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:8:8:1:1" value="INTEGER"/>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:8:8:1:2" value="INTEGER"/>
+</Binary_Exp>
+</Type>
+<Type id="1382780156">
+<Unary_Exp op="POW">
+<Unary_Exp op="POW">
+<Binary_Exp op="*">
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:8:9:1:1:1:1" value="INTEGER"/>
+<Binary_Exp op="*">
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:8:9:1:1:1:2:1" value="INTEGER"/>
+<Id tag="D:\PROJRSCTS\workspace\Coursework\bdp\Maze.bxml:1:8:9:1:1:1:2:2" value="INTEGER"/>
+</Binary_Exp>
+</Binary_Exp>
+</Unary_Exp>
+</Unary_Exp>
+</Type>
+</TypeInfos>
+</Proof_Obligations>
